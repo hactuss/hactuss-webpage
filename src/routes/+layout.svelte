@@ -1,6 +1,27 @@
 <script lang="ts">
+    import { onMount } from "svelte";
     import "../app.scss";
     let { children } = $props();
+
+    /*
+    let sCharacter = $state("s");
+
+    onMount(() => {
+        const interval = setInterval(() => {
+            if (sCharacter == "‎") {
+                sCharacter = "s";
+            } else {
+                sCharacter = "‎";
+            }
+        }, 500);
+
+        return () => {
+            clearInterval(interval);
+        };
+    });
+
+    */
+    //  fds
 </script>
 
 <svelte:head>
@@ -8,7 +29,7 @@
         rel="stylesheet"
         href="https://raw.githubusercontent.com/sindresorhus/modern-normalize/refs/heads/main/modern-normalize.css"
     />
-    <title>hactuss.v.a</title>
+    <title>main / hactuss</title>
     <meta
         name="discription"
         content="Hactuss personal website. Do not open on mobile!"
@@ -34,7 +55,7 @@
                 ></a
             >
         </div>
-        <h1>H A C T U S (S)</h1>
+        <h1>H A C T U S S</h1>
         <div>
             Visit my portfolio <a
                 href="https://hactuss-portfolio.vercel.app"

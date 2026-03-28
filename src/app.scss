@@ -4,6 +4,8 @@ https://www.dafont.com/de/diamondgrams.font
 */
 :root {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family:
+        "Circular Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.5rem;
 }
 * {
@@ -13,14 +15,16 @@ https://www.dafont.com/de/diamondgrams.font
 }
 html {
     background-color: rgb(240, 240, 240);
+    /*
     cursor:
         url("./lib/assets/Cursor.cur") 2 2,
         auto;
+    */
 }
 body {
     color: blue;
     accent-color: blue;
-    padding-inline: 12.5%;
+    //padding-inline: 12.5%;
 }
 main {
     background-color: white;
@@ -45,18 +49,27 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     margin-inline: 1%;
 }
 h1 {
     height: 100%;
     text-align: center;
     align-self: center;
+
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 h4 {
     justify-self: center;
 }
 p {
     font-size: 1rem;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255 20 10);
 }
 img {
     image-rendering: pixelated;

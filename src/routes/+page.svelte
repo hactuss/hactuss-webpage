@@ -1,4 +1,6 @@
 <script>
+    import { onMount } from "svelte";
+
     let content = $state("default");
     let story = $state("blablabla");
     let story_cr = "creative stuff I do";
@@ -44,6 +46,7 @@
             alt="doggo"
             class="doggo"
         />
+
         <div>
             <p>
                 Hello, my [psydonym/alias] is Hactuss. I make art, websites and
@@ -56,12 +59,12 @@
                 This site is basically a bigger version of the hobby discription
                 from my <a
                     href="https://hactuss-portfolio.vercel.app/"
-                    target="_blank">portfolio.</a
+                    target="_blank">PORTFOLIO.</a
                 >
             </p>
         </div>
     </header>
-    <!-- --
+    <!--
     <div class="grid">
         <div
             class="col"
@@ -141,7 +144,8 @@
     <div class="topic-content">
         <h2>{content}</h2>
         <p>{story}</p>
-        </div>-->
+    </div>
+    -->
     {#if false}
         <div>
             <h1>moving text</h1>

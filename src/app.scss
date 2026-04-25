@@ -13,8 +13,10 @@ https://www.dafont.com/de/diamondgrams.font
     padding: 0;
     border: 0;
 }
+/* ------------------------------------------------------------ */
 html {
     background-color: rgb(240, 240, 240);
+    background-color: black;
     /*
     cursor:
         url("./lib/assets/Cursor.cur") 2 2,
@@ -26,9 +28,17 @@ body {
     accent-color: blue;
     //padding-inline: 12.5%;
 }
-main {
+main[data-theme="light"] {
     background-color: white;
 }
+$tone: 25;
+main[data-theme="dark"] {
+    background-color: rgb($tone, $tone, $tone);
+    color: white;
+}
+
+/* ------------------------------------------------------------ */
+
 header {
     display: flex;
     flex-direction: row;

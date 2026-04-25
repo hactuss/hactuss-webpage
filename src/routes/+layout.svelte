@@ -1,5 +1,4 @@
 <script lang="ts">
-    import { onMount } from "svelte";
     import "../app.scss";
     let { children } = $props();
 
@@ -29,7 +28,7 @@
         rel="stylesheet"
         href="https://raw.githubusercontent.com/sindresorhus/modern-normalize/refs/heads/main/modern-normalize.css"
     />
-    <title>home / hactuss</title>
+    <title>/home/hactuss</title>
     <meta
         name="discription"
         content="Hactuss personal website. Do not open on mobile!"

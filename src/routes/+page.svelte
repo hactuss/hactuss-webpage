@@ -1,6 +1,7 @@
 <script>
     import { onMount } from "svelte";
 
+    import ng from "$lib/assets/ng_logo.png";
     let content = $state("default");
     let story = $state("blablabla");
     let story_cr = "creative stuff I do";
@@ -39,7 +40,7 @@
     </div>
 {/if}
 -->
-<main>
+<main data-theme="dark">
     <header>
         <img
             src="https://media1.tenor.com/m/mc3OyxhLazUAAAAC/doggo-doge.gif"
@@ -64,89 +65,93 @@
             </p>
         </div>
     </header>
-    <!--
-    <div class="grid">
-        <div
-            class="col"
-            onmouseenter={() => {
-                content = "creative";
-                story = story_cr;
-            }}
-            onmouseleave={() => {
-                setDefault();
-            }}
-        >
-            <h4>creative</h4>
-            <div class="cr">
-                <ul>
-                    <li>art (ng)</li>
-                    <li>video editing (yt)</li>
-                </ul>
-            </div>
-        </div>
-        <div
-            class="col"
-            onmouseenter={() => {
-                content = "productive";
-                story = story_pr;
-            }}
-            onmouseleave={() => {
-                setDefault();
-            }}
-        >
-            <h4>productive</h4>
-            <div class="pr">
-                <ul>
-                    <li>personal organization (obsidian)</li>
-                    <li>office</li>
-                    <li>ability farming</li>
-                </ul>
-            </div>
-        </div>
-        <div
-            class="col"
-            onmouseenter={() => {
-                content = "free time";
-                story = story_ft;
-            }}
-            onmouseleave={() => {
-                setDefault();
-            }}
-        >
-            <h4>free time</h4>
-            <div class="ft">
-                <ul>
-                    <li>linux rice</li>
-                    <li>splatoon</li>
-                    <li>boredom</li>
-                </ul>
-            </div>
-        </div>
-        <div
-            class="col"
-            onmouseenter={() => {
-                content = "state";
-                story = story_st;
-            }}
-            onmouseleave={() => {
-                setDefault();
-            }}
-        >
-            <h4>state</h4>
-            <div class="st">
-                <ul>
-                    <li>future</li>
-                    <li>selfhosting</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="topic-content">
-        <h2>{content}</h2>
-        <p>{story}</p>
-    </div>
-    -->
     {#if false}
+        <div style:display="flex">
+            <img src={ng} alt="ng" width="250em" />
+            <h1>ART</h1>
+            <p>I post my art on ng</p>
+        </div>
+
+        <div class="grid">
+            <div
+                class="col"
+                onmouseenter={() => {
+                    content = "creative";
+                    story = story_cr;
+                }}
+                onmouseleave={() => {
+                    setDefault();
+                }}
+            >
+                <h4>creative</h4>
+                <div class="cr">
+                    <ul>
+                        <li>art (ng)</li>
+                        <li>video editing (yt)</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="col"
+                onmouseenter={() => {
+                    content = "productive";
+                    story = story_pr;
+                }}
+                onmouseleave={() => {
+                    setDefault();
+                }}
+            >
+                <h4>productive</h4>
+                <div class="pr">
+                    <ul>
+                        <li>personal organization (obsidian)</li>
+                        <li>office</li>
+                        <li>ability farming</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="col"
+                onmouseenter={() => {
+                    content = "free time";
+                    story = story_ft;
+                }}
+                onmouseleave={() => {
+                    setDefault();
+                }}
+            >
+                <h4>free time</h4>
+                <div class="ft">
+                    <ul>
+                        <li>linux rice</li>
+                        <li>splatoon</li>
+                        <li>boredom</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="col"
+                onmouseenter={() => {
+                    content = "state";
+                    story = story_st;
+                }}
+                onmouseleave={() => {
+                    setDefault();
+                }}
+            >
+                <h4>state</h4>
+                <div class="st">
+                    <ul>
+                        <li>future</li>
+                        <li>selfhosting</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="topic-content">
+            <h2>{content}</h2>
+            <p>{story}</p>
+        </div>
         <div>
             <h1>moving text</h1>
             <div style:overflow="hidden">

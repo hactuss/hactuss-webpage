@@ -1,0 +1,12 @@
+<ul>
+	<li>https://simple.wikipedia.org/wiki/Road_signs_in_Japan</li>
+	<li>https://commons.wikimedia.org/wiki/File:Japanese_stop_sign_(1950-1960).svg</li>
+	<li>https://commons.wikimedia.org/wiki/File:Aiga_railtransportation_25.svg</li>
+	<li>https://commons.wikimedia.org/wiki/File:Japan_road_sign_315.svg</li>
+	<li>https://commons.wikimedia.org/wiki/File:Japan_road_sign_311-C.svg</li>
+	<li>https://commons.wikimedia.org/wiki/File:Japan_road_sign_301.svg</li>
+	<li>https://commons.wikimedia.org/wiki/File:Japan_road_sign_303.svg</li>
+	<li>https://commons.wikimedia.org/wiki/File:Japan_road_sign_205-R.svg</li>
+	<li>https://en.wikipedia.org/wiki/File:Japanese_road_signs_2024.pdf</li>
+	<li>https://commons.wikimedia.org/wiki/File:Japan_road_sign_507-C.svg</li>
+</ul>

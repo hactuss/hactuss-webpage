@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    //border: 1px red solid;
+}
+:root {
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+html {
+    overflow: hidden;
+}
+body {
+    height: 90dvh;
+    background-color: hsl(0, 0%, 15%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-wrap: normal;
+}
+h1 {
+    letter-spacing: -1px;
+}
+a {
+    color: hsl(200, 75%, 75%);
+    &:hover {
+        color: hsl(200, 75%, 85%);
+        text-decoration: none;
+    }
+}

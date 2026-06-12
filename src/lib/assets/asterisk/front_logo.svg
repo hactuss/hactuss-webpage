@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 638 603" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.257352,0,0,0.343762,0,0)">
+        <g transform="matrix(3.879243,0,0,2.883948,-3134.428683,0)">
+            <g transform="matrix(0.337458,0,0,0.258056,955.158062,-44.127572)">
+                <rect x="248" y="171" width="525" height="1190" style="fill:white;"/>
+            </g>
+            <g transform="matrix(-0.273009,-0.198353,0.151681,-0.208772,1060.362909,685.903194)">
+                <rect x="248" y="171" width="525" height="1190" style="fill:white;"/>
+            </g>
+            <g transform="matrix(-0.273009,0.198353,-0.151681,-0.208772,1473.239948,489.965792)">
+                <rect x="248" y="171" width="525" height="1190" style="fill:white;"/>
+            </g>
+            <g transform="matrix(0.10428,-0.320941,0.245426,0.079744,740.170695,362.396075)">
+                <rect x="248" y="171" width="525" height="1190" style="fill:white;"/>
+            </g>
+            <g transform="matrix(0.10428,0.320941,-0.245426,0.079744,1408.219776,34.714848)">
+                <rect x="248" y="171" width="525" height="1190" style="fill:white;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,839.654922,-1163.658145)">
+                <g transform="matrix(83.333333,0,0,83.333333,617.988512,1223.309838)">
+                </g>
+                <text x="534.655px" y="1223.31px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:83.333px;fill:white;">™</text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,11 +1,11 @@
 <script lang="ts">
-    import favicon from "$lib/assets/favicon.svg";
+    import favicon from "$lib/assets/asterisk/favicon.svg";
+    import "./asterisk.scss";
     let { children } = $props();
 </script>
 
 <svelte:head>
-    <title>hactuss - graphic designer and webdev</title>
     <link rel="icon" href={favicon} />
+    <title>hactuss | asterisk design</title>
 </svelte:head>
-
 {@render children()}

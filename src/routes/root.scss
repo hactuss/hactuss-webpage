@@ -9,16 +9,20 @@
 }
 html {
     overflow: hidden;
+    width: 100%;
 }
 body {
     height: 90dvh;
+    width: 100%;
     background-color: hsl(0, 0%, 15%);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    overflow-wrap: normal;
+}
+main {
+    width: 100%;
 }
 h1 {
     letter-spacing: -1px;
@@ -29,4 +33,11 @@ a {
         color: hsl(200, 75%, 85%);
         text-decoration: none;
     }
+}
+img {
+    width: 50%;
+    aspect-ratio: 1/1;
+    image-rendering: pixelated;
+    vertical-align: middle;
+    background-color: white;
 }

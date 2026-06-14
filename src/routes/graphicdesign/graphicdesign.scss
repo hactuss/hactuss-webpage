@@ -20,6 +20,9 @@ Accent: #aaa8d4 - rgb(170, 168, 212) - hsl(243, 34%, 75%)
 h1 {
     mix-blend-mode: normal;
 }
+h3 {
+    text-align: center;
+}
 header {
     border-top: rgb(254, 1, 128) solid 1em;
     border-bottom: rgb(254, 1, 128) solid 1em;
@@ -47,4 +50,8 @@ img {
     aspect-ratio: inherit;
     margin: 1em;
     //object-fit: cover;
+}
+button {
+    width: 10%;
+    height: 2em;
 }

@@ -31,10 +31,9 @@ body {
     background-color: hsl(0, 0%, 15%);
     color: white;
     display: flex;
-    /*
     justify-content: center;
     align-items: center;
-    text-align: center;*/
+    text-align: center;
 }
 main {
     width: 100%;
@@ -43,7 +42,7 @@ h1 {
     letter-spacing: -1px;
 }
 a {
-    margin: clamp(0%, 1%, 2%);
+    //margin: clamp(0%, 1%, 2%);
     color: hsl(200, 75%, 75%);
     &:hover {
         color: hsl(200, 75%, 85%);

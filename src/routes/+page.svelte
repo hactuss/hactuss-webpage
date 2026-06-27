@@ -2,8 +2,15 @@
     import "./root.scss";
     import pixel from "$lib/assets/pixel.png";
     import lil_guy from "$lib/assets/ezgif.com-speed.png";
+    function handleKeydown(event) {
+        if (event.key == "p") {
+            //goto("/room");
+            window.location.href = "/room";
+        }
+    }
 </script>
 
+<svelte:window onkeydown={handleKeydown} />
 <main>
     <img src={lil_guy} alt="lil guy" />
     <br />

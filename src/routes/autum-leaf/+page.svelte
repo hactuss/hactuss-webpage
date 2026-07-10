@@ -17,14 +17,6 @@
             This is the reason why many parts in the font feel reused for many
             characters.
         </p>
-<!--
-        <h2>09-Cypher</h2>
-        <pre>
-            | A   | B   | C   | D   | Y/4 | Z   | X   |
-            | S/5 | b/6 | 7   | 0   | 3   | 2   | 8   |
-            |     |     |     |     |     | 1   |     |
-        </pre>
--->
     </section>
 </main>
 

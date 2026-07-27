@@ -7,7 +7,6 @@
     import nixos from "$lib/assets/graphicdesign/nixos-propaganda.png";
     import obnite from "$lib/assets/graphicdesign/Obnite.webp";
     import secret_code from "$lib/assets/graphicdesign/secretcodeofhactuss.png";
-    import supreme_design_abuse from "$lib/assets/graphicdesign/supreme design abuse.webp";
     import phone from "$lib/assets/graphicdesign/This is a phone.webp";
     import phone_2400 from "$lib/assets/graphicdesign/This is a phone 2400.png";
 
@@ -18,17 +17,29 @@
         query: "?url",
     });
     const images = Object.entries(imageModules).map(([url]) => ({ url }));*/
-    let sorted = $state(false);
+    let sorted = $state(true);
     function sort() {
         sorted = !sorted;
     }
+    const images = import.meta.glob(
+      '/src/lib/assets/graphicdesign/*.{png,jpg,jpeg,webp,avif,gif,svg}',
+      {
+        eager: true,
+        import: 'default'
+      }
+    );
+    const imageList = Object.entries(images).map(([path, url]) => ({
+      path,
+      url
+    }));
+    console.log(imageList);
 </script>
 
+<header>
+    <h1>Hactus Design</h1>
+    <button onclick={sort}>Sort</button>
+</header>
 <main>
-    <header>
-        <h1>Hactus Design - this site is unproportional</h1>
-        <button onclick={sort}>Sort</button>
-    </header>
     <main>
         {#if sorted == false}
             <div class="gallery">
@@ -40,7 +51,6 @@
                 <img src={nixos} alt="" />
                 <img src={obnite} alt="" />
                 <img src={secret_code} alt="" />
-                <img src={supreme_design_abuse} alt="" />
                 <img src={phone} alt="" />
                 <img src={phone_2400} alt="" />
                 <!--
@@ -74,7 +84,6 @@
                 </div>
                 <div class="sorted_category">
                     <h3>phone related designs</h3>
-                    <img src={supreme_design_abuse} alt="" />
                     <img src={phone} alt="" />
                     <img src={phone_2400} alt="" />
                 </div>
@@ -82,10 +91,20 @@
         {/if}
     </main>
 </main>
+<!--
+<hr>
+
+{#each imageList as image}
+  <img src={image.url} alt="" />
+  <p>some</p>
+{/each}-->
 
 <style lang="scss">
     main {
         width: 100vw;
+    }
+    header{
+        width: 100%;
     }
     .gallery {
         display: flex;

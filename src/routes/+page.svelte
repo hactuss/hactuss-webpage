@@ -12,7 +12,7 @@
 
 <svelte:window onkeydown={handleKeydown} />
 <main>
-    <img src={lil_guy} alt="lil guy" />
+    <img src={lil_guy} alt="lil guy" draggable="false"/>
     <br />
     <a href="/graphicdesign">graphic designs</a>
     <a href="/portfolio">portfolio</a>

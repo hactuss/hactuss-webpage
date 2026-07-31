@@ -1,0 +1,1 @@
+//export ssg = true;

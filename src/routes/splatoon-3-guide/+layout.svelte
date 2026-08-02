@@ -7,12 +7,8 @@
 
 <svelte:head>
     <link rel="icon" href={favicon} />
-    <link
-        rel="stylesheet"
-        href="https://raw.githubusercontent.com/sindresorhus/modern-normalize/refs/heads/main/modern-normalize.css"
-    />
 </svelte:head>
-
+<!-- --
 <nav>
     <div><h2 style:color="yellow">/!\ under construction</h2></div>
     <div>
@@ -29,5 +25,6 @@
         >
     </div>
 </nav>
+-->
 
 {@render children()}

@@ -12,8 +12,7 @@
             "Autum Leaf" is a futuristic, hard to read font that is a
             combination of inspiration by the Designers Republic's wip3out font,
             and limited knowledge of Affinity. It was initially made with the
-            intent of working with a specific non-public cypher (named
-            "09-Cypher")that is based around certain characters looking similar.
+            intent of certain characters looking similar.
             This is the reason why many parts in the font feel reused for many
             characters.
         </p>

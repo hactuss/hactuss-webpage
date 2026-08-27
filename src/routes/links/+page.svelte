@@ -1,6 +1,5 @@
 <script>
     import { onMount } from "svelte";
-    import "./links.scss";
 
     let NUMBER_EQUALS_CHARACTERS = 6;
     let EQUAL_CHARACTERS = "=".repeat(250);
@@ -81,6 +80,45 @@
 
 <!-- ▎▒-->
 <style>
+    :global{
+        * {
+            font-family: monospace;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size: 1rem;
+            text-wrap: balance;
+        }
+        body {
+            background-color: rgb(10, 10, 30);
+        }
+        p {
+            background-color: rgb(10, 10, 30);
+        }
+
+        img {
+            image-rendering: pixelated;
+        }
+        #border-left {
+            text-align: left;
+        }
+        #border-right {
+            text-align: right;
+        }
+        #example {
+            white-space: pre-line;
+        }
+        @media screen and (width <= 600px) {
+            a {
+                margin-top: 3%;
+                margin-bottom: 3%;
+                min-height: 2.5rem;
+                align-content: center;
+            }
+        }
+
+    }
     * {
         margin: 0%;
         padding: 0;

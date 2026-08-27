@@ -1,6 +1,5 @@
 <script>
     //import "./../root.scss";
-    import "./autum-leaf.scss";
     import image from "$lib/assets/autum-leaf/autum leaf by hactuss.png";
 </script>
 
@@ -19,4 +18,29 @@
     </section>
 </main>
 
-<style></style>
+<style>
+    :global{
+        :root {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        body {
+            background-color: black;
+            text-align: center;
+        }
+        main{
+            margin: 1em;
+        }
+        p,
+        h1,
+        h2,
+        pre {
+            text-align: left;
+        }
+        img {
+            filter: invert(100%);
+            text-align: center;
+        }
+
+    }
+</style>

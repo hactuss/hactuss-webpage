@@ -154,12 +154,76 @@
 </main>
 
 <style>
+    :global {
     * {
+        margin: 5px;
+        /*font-family: "DugasPro";*/
+        color: hsl(0 0 80%);
         cursor: url("$lib/assets/portfolio/images/Cursor.png"), auto;
     }
     :root {
+        font-size: 1.25rem;
+        white-space: collapse;
+        font-family: monospace;
         --white: color: hsl(0 0 79);
     }
+    @font-face {
+        font-family: "DugasPro";
+        src:
+            local("DugasPro"),
+            url("./lib/assets/fonts/dugas_pro/ttf/DugasPro-RegularCondensed.ttf");
+    }
+    * {
+        ::selection {
+            color: rgb(50 50 50);
+            background-color: rgb(200 250 20);
+        }
+    }
+
+    :global(html) {
+        background-color: rgb(30 30 30);
+        background-image: url("https://imgs.search.brave.com/bDx7OquS6IrpfGWWKAKuLEB978SrEmZYS_wT76gkmLg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvY29uY3JldGUt/dGV4dHVyZS1waWN0/dXJlcy1yZzF5aGRo/dTlrYnVpbmZ3Lmpw/Zw");
+        background-size: contain;
+        background-image: none;
+        cursor:
+            url("../../lib/assets/images/Cursor.cur") 0 0,
+            default;
+    }
+    a,
+    img {
+        cursor:
+            url("$/lib/assets/images/Clicker.cur") 0 0,
+            pointer;
+    }
+    header {
+        display: flex;
+    }
+    footer {
+        font-size: 0.8rem;
+    }
+    :global(
+    li,
+    ul) {
+        list-style-type: "▷ ";
+        list-style-type: "◦ ";
+        list-style-type: "》";
+        list-style-type: "> ";
+        list-style-type: "⁎ ";
+
+        /*
+      https://www.madeintext.com/gaming-symbols/
+      https://www.madeintext.com/minecraft-symbols/
+      https://www.madeintext.com/star-symbols/
+      https://www.madeintext.com/circle-symbols/
+      */
+    }
+a {
+        color: #c8fa14;
+    }
+    hr {
+        width: 110%;
+    }
+}
     #SIDEBAR {
         flex: 1;
         display: flex;

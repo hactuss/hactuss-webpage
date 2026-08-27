@@ -1,5 +1,4 @@
 <script>
-    import "./app.scss";
     import ng from "$lib/assets/ng_logo.png";
     let content = $state("default");
     let story = $state("blablabla");
@@ -170,6 +169,110 @@
 </main>
 
 <style lang="scss">
+    :global{
+        /*
+        https://www.dafont.com/de/monogramos.font
+        https://www.dafont.com/de/diamondgrams.font
+        */
+        :root {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-family:
+                "Circular Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 1.5rem;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        /* ------------------------------------------------------------ */
+        html {
+            background-color: rgb(240, 240, 240);
+            background-color: black;
+            /*
+            cursor:
+                url("./lib/assets/Cursor.cur") 2 2,
+                auto;
+            */
+        }
+        body {
+            color: blue;
+            accent-color: blue;
+            //padding-inline: 12.5%;
+        }
+        main[data-theme="light"] {
+            background-color: white;
+        }
+
+        main[data-theme="dark"] {
+            background-color: rgb($tone, $tone, $tone);
+            color: white;
+        }
+
+        /* ------------------------------------------------------------ */
+
+        header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        nav {
+            background: #ffb4b4;
+            background: linear-gradient(
+                0deg,
+                rgba(255, 180, 180, 1) 0%,
+                rgba(255, 255, 255, 1) 20%
+            );
+            color: black;
+        }
+        .nav {
+            font-size: 0.5rem;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            margin-inline: 1%;
+        }
+        h1 {
+            height: 100%;
+            text-align: center;
+            align-self: center;
+
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h4 {
+            justify-self: center;
+        }
+        p {
+            font-size: 1rem;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            color: rgb(255 20 10);
+        }
+        img {
+            image-rendering: pixelated;
+        }
+        svg {
+            color: black;
+            width: 1.5rem;
+        }
+        ul {
+            text-decoration: none;
+            list-style: none;
+        }
+        button {
+            padding: 1px;
+            border-radius: 2px;
+        }
+        button:active {
+            background-color: red;
+        }
+
+    }
     .marquee {
         margin: 0 auto;
         white-space: nowrap;

@@ -11,7 +11,6 @@
     import phone_2400 from "$lib/assets/graphicdesign/This is a phone 2400.png";
 
     // ####################################################################################
-    import "./graphicdesign.scss";
     /*
     const imageModules = import.meta.glob("$lib/assets/graphicdesign/*", {
         query: "?url",
@@ -100,6 +99,66 @@
 {/each}-->
 
 <style lang="scss">
+    :global{
+        :root {
+            font-size: 2rem;
+            font-family: Helvetica, sans-serif;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        html {
+            background-color: rgb(87, 87, 119);
+            color: rgb(255, 255, 255);
+        }
+        /*
+        Primary: #eb0ddd - rgb(235, 13, 221) - hsl(304, 90%, 49%)
+        Secondary: #b80e0e - rgb(184, 14, 14) - hsl(0, 86%, 39%)
+        Accent: #aaa8d4 - rgb(170, 168, 212) - hsl(243, 34%, 75%)
+        */
+
+        h1 {
+            mix-blend-mode: normal;
+        }
+        h3 {
+            text-align: center;
+        }
+        header {
+            border-top: rgb(254, 1, 128) solid 1em;
+            border-bottom: rgb(254, 1, 128) solid 1em;
+            width: 100%;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        footer {
+            background-color: rgb(20 20 20);
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            font-size: 0.75em;
+        }
+        img {
+            width: 6.5em;
+            max-width: 100%;
+            max-height: 100%;
+            height: fit-content;
+            aspect-ratio: inherit;
+            margin: 1em;
+            //object-fit: cover;
+        }
+        button {
+            width: 10%;
+            height: 2em;
+        }
+
+    }
     main {
         width: 100vw;
     }

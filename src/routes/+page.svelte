@@ -29,7 +29,6 @@
     * {
         margin: 0;
         padding: 0;
-        //border: 1px red solid;
         font-size: clamp (1em, 1em, 1em);
     }
     html {

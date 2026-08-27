@@ -23,7 +23,6 @@
 <style lang="scss">
     :global{
     :root {
-        //font-family: Lineto Circular;
         font-family: monospace;
         font-size: 1.5rem;
     }

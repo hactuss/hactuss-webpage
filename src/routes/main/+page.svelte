@@ -198,7 +198,7 @@
         body {
             color: blue;
             accent-color: blue;
-            //padding-inline: 12.5%;
+            /*padding-inline: 12.5%;*/
         }
         main[data-theme="light"] {
             background-color: white;

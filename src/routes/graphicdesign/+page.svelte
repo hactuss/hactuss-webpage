@@ -151,7 +151,7 @@
             height: fit-content;
             aspect-ratio: inherit;
             margin: 1em;
-            //object-fit: cover;
+            /*object-fit: cover; */
         }
         button {
             width: 10%;

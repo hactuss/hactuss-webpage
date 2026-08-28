@@ -1,6 +1,5 @@
 <script lang="ts">
     import favicon from "$lib/assets/asterisk/favicon.svg";
-    import "./asterisk.scss";
     let { children } = $props();
 </script>
 

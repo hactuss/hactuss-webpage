@@ -192,7 +192,7 @@
     a,
     img {
         cursor:
-            url("$lib/assets/images/Clicker.cur") 0 0,
+            url("../../lib/assets/images/Clicker.cur") 0 0,
             pointer;
     }
     header {

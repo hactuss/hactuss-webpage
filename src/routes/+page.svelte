@@ -1,5 +1,4 @@
 <script>
-    import pixel from "$lib/assets/pixel.png";
     import lil_guy from "$lib/assets/ezgif.com-speed.png";
     function handleKeydown(event) {
         if (event.key == "p") {
@@ -54,7 +53,7 @@
 
     }
     body {
-        //height: 100dvh;
+
         width: 100%;
         background-color: hsl(0, 0%, 15%);
         color: white;

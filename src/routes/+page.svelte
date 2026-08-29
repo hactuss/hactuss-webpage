@@ -10,16 +10,32 @@
 </script>
 
 <svelte:window onkeydown={handleKeydown} />
+<nav>
+</nav>
 <main>
+    <div class="main_container">
     <img src={lil_guy} alt="lil guy" draggable="false"/>
-    <br />
-    <a href="/graphicdesign">graphic designs</a>
-    <a href="/portfolio">portfolio</a>
-    <a href="/links">links</a>
-    <a href="/splatoon-3-guide">"ability farming in splatoon 3"</a>
-    <a href="/hatshell">hatshell font</a>
-    <a href="/autum-leaf">autum leaf font</a>
+    <div class="flex_vertical">
+        <!--<h6>this website was made to practice css grid</h6>-->
+<ul>
+    <li>
+    <a href="/graphicdesign">graphic designs</a></li>
+    <li><a href="/portfolio">portfolio</a></li>
+    <li><a href="/links">links</a></li>
+    <li><a href="/splatoon-3-guide">"ability farming in splatoon 3"</a></li>
+    <li><a href="/hatshell">hatshell font</a></li>
+    <li><a href="/autum-leaf">autum leaf font</a></li>
+</ul>
+<h1>Hactuss</h1>
+    </div>
+    </div>
 </main>
+<footer>
+    <div>
+    <a href="https://github.com/hactuss">Github</a></div>
+    <div>
+    <a href="https://github.com/hactuss/hactuss-webpage">Website source</a></div>
+</footer>
 <style lang="scss">
     :global{
     :root {
@@ -30,20 +46,22 @@
         margin: 0;
         padding: 0;
         font-size: clamp (1em, 1em, 1em);
-    }
-    html {
-        overflow: hidden;
+        //border: solid red 1px;
         width: 100%;
     }
+    html {
+        //overflow: hidden;
+
+    }
     body {
-        height: 90dvh;
+        //height: 100dvh;
         width: 100%;
         background-color: hsl(0, 0%, 15%);
         color: white;
-        display: flex;
+/*        display: flex;
         justify-content: center;
-        align-items: center;
-        text-align: center;
+        align-items: center;*/
+        //text-align: center;
     }
     main {
         width: 100%;
@@ -59,11 +77,31 @@
             text-decoration: none;
         }
     }
+    ul, li{
+        list-style: none;
+    }
     img {
-        width: clamp(40%, 20%, 10%);
+        //width: clamp(40%, 20%, 10%);
+        width: 100%;
         aspect-ratio: 1/1;
         image-rendering: pixelated;
         vertical-align: middle;
+        border: solid 1px white;
     }
+    footer{
+        background-color: hsl(0, 0, 25);
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content:flex-end;
+    }
+}
+.main_container{
+    display: flex;
+}
+.flex_vertical{
+    display: flex;
+    flex-direction: column;
 }
 </style>

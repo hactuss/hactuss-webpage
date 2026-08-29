@@ -46,11 +46,11 @@
         margin: 0;
         padding: 0;
         font-size: clamp (1em, 1em, 1em);
-        //border: solid red 1px;
+
         width: 100%;
     }
     html {
-        //overflow: hidden;
+
 
     }
     body {
@@ -81,7 +81,7 @@
         list-style: none;
     }
     img {
-        //width: clamp(40%, 20%, 10%);
+
         width: 100%;
         aspect-ratio: 1/1;
         image-rendering: pixelated;

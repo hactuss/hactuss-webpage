@@ -53,14 +53,12 @@
 
     }
     body {
-
         width: 100%;
         background-color: hsl(0, 0%, 15%);
         color: white;
 /*        display: flex;
         justify-content: center;
         align-items: center;*/
-        //text-align: center;
     }
     main {
         width: 100%;

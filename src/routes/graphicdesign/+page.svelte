@@ -7,8 +7,8 @@
     import nixos from "$lib/assets/graphicdesign/nixos-propaganda.png";
     import obnite from "$lib/assets/graphicdesign/Obnite.webp";
     import secret_code from "$lib/assets/graphicdesign/secretcodeofhactuss.png";
-    import phone from "$lib/assets/graphicdesign/This is a phone.webp";
-    import phone_2400 from "$lib/assets/graphicdesign/This is a phone 2400.png";
+    //import phone from "$lib/assets/graphicdesign/This is a phone.webp";
+    //import phone_2400 from "$lib/assets/graphicdesign/This is a phone 2400.png";
 
     // ####################################################################################
     /*
@@ -16,7 +16,7 @@
         query: "?url",
     });
     const images = Object.entries(imageModules).map(([url]) => ({ url }));*/
-    let sorted = $state(true);
+    let sorted = $state(false);
     function sort() {
         sorted = !sorted;
     }
@@ -36,7 +36,7 @@
 
 <header>
     <h1>Hactus Design</h1>
-    <button onclick={sort}>Sort</button>
+    <!--<button onclick={sort}>Sort</button>-->
 </header>
 <main>
     <main>
@@ -50,8 +50,7 @@
                 <img src={nixos} alt="" />
                 <img src={obnite} alt="" />
                 <img src={secret_code} alt="" />
-                <img src={phone} alt="" />
-                <img src={phone_2400} alt="" />
+
                 <!--
                 {#each images as image}
                     <img src={image.url} alt={image.url} />
@@ -81,11 +80,7 @@
                     <img src={nixos} alt="" />
                     <img src={gentoo} alt="" />
                 </div>
-                <div class="sorted_category">
-                    <h3>phone related designs</h3>
-                    <img src={phone} alt="" />
-                    <img src={phone_2400} alt="" />
-                </div>
+
             </div>
         {/if}
     </main>

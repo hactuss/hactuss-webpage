@@ -3,6 +3,7 @@ import adapter from "@sveltejs/adapter-auto";
 import { sveltekit } from "@sveltejs/kit/vite";
 import { defineConfig } from "vite";
 import { enhancedImages } from "@sveltejs/enhanced-img";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [
@@ -20,5 +21,6 @@ export default defineConfig({
       preprocess: [mdsvex({ extensions: [".svx", ".md"] }), enhancedImages()],
       extensions: [".svelte", ".svx", ".md"],
     }),
+    tailwindcss()
   ],
 });

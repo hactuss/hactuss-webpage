@@ -119,36 +119,34 @@
         </div>
         <hr />
         <div>
-            <h2>Personality</h2>
-            <div>
-                <h3>Hobbies</h3>
-                <ul>
-                    <li>Videoediting</li>
-                    <li>
-                        Experimenting with Linux (Specifically <a
-                            id="marked4"
-                            class="marked"
-                            href="https://nixos.org/">NixOS</a
-                        >)
-                    </li>
-                    <li>Drawing comics</li>
-                    <li>
-                        Reading books regarding my hobbies or general literature
-                    </li>
-                    <li>Gaming (Splatoon 3)</li>
-                </ul>
-            </div>
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Videoediting</li>
+                <li>
+                    Experimenting with Linux (Specifically <a
+                        id="marked4"
+                        class="marked"
+                        href="https://nixos.org/">NixOS</a
+                    >)
+                </li>
+                <li>Making digital music</li>
+                <li>
+                    Reading books regarding my hobbies or general literature
+                </li>
+                <li>Gaming (Splatoon 3)</li>
+            </ul>
         </div>
         <hr />
         <footer>
-            <p>
+            <span>
                 Contact me via Email: <a
                     href="mailto:hactuss@proton.me"
                     class="marked"
                     ><span id="marked1" class="marked">hactuss@proton.me</span
                     ></a
-                >
-            </p>
+                >,
+            </span>
+            <span>Last updated: 23/09/26</span>
         </footer>
     </main>
 </main>

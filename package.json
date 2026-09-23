@@ -25,6 +25,7 @@
     "scss": "^0.2.4",
     "svelte": "^5.56.10",
     "svelte-check": "^4.7.6",
+    "svelte-device-info": "^1.0.6",
     "svelte-meta-tags": "^5.0.2",
     "typescript": "^6.0.3",
     "vite": "^8.2.2"

@@ -3,3 +3,4 @@ allowBuilds:
   es5-ext: true
   sharp: true
 minimumReleaseAge: 10080
+blockExoticSubdeps: true

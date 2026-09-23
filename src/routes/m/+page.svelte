@@ -1,39 +1,22 @@
 <script>
-    import lil_guy from "$lib/assets/ezgif.com-speed.png";
     import Device from 'svelte-device-info';
-    function handleKeydown(event) {
-        if (event.key == "p") {
-            //goto("/room");
-            window.location.href = "/room";
-        }
-    }
 </script>
-
-<svelte:window onkeydown={handleKeydown} />
-{#if Device.isPhone == true}
-<meta http-equiv="refresh" content="0; url=/m">
+{#if Device.isPhone == false}
+<meta http-equiv="refresh" content="0; url=/">
 {/if}
 <main>
-    <div class="main_container">
-        <div class="image_container">
-            <div class="subcontainer">
-            <img src={lil_guy} alt="lil guy" draggable="false"/>
-            <p>Keep pushing!</p>
-            </div>
-        </div>
-        <div class="flex-vertical text-center place-content-center all-the-text">
-            <!--<h6>this website was made to practice css grid</h6>-->
-            <h1>Hactuss</h1>
-            <ul class="text-list">
-                <li><a href="https://github.com/hactuss">Github</a></li>
-                <li><a href="/graphicdesign">graphic designs</a></li>
-                <li><a href="/portfolio">portfolio</a></li>
-                <li><a href="/links">links</a></li>
-                <li><a href="/splatoon-3-guide">"ability farming in splatoon 3"</a></li>
-                <!--<li><a href="/hatshell">hatshell font</a></li>-->
-                <li><a href="/autum-leaf">autum leaf font</a></li>
-            </ul>
-        </div>
+    <div class="flex-vertical text-center place-content-center all-the-text">
+        <!--<h6>this website was made to practice css grid</h6>-->
+        <h1>Hactuss</h1>
+        <ul class="text-list">
+            <li><a href="https://github.com/hactuss">Github</a></li> <br>
+            <li><a href="/graphicdesign">graphic designs</a></li>
+            <li><a href="/portfolio">portfolio</a></li>
+            <li><a href="/links">links</a></li>
+            <li><a href="/splatoon-3-guide">"ability farming in splatoon 3"</a></li>
+            <!--<li><a href="/hatshell">hatshell font</a></li>-->
+            <li><a href="/autum-leaf">autum leaf font</a></li>
+        </ul>
     </div>
 </main>
 

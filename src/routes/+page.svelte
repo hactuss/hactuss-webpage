@@ -26,12 +26,13 @@
             <h1>Hactuss</h1>
             <ul class="text-list">
                 <li><a href="https://github.com/hactuss">Github</a></li>
-                <li><a href="/graphicdesign">graphic designs</a></li>
+                <li><a href="https://youtube.com/@hactuss">Youtube</a></li>
+                <!--<li><a href="/graphicdesign">graphic designs</a></li>-->
                 <li><a href="/portfolio">portfolio</a></li>
                 <li><a href="/links">links</a></li>
                 <li><a href="/splatoon-3-guide">"ability farming in splatoon 3"</a></li>
                 <!--<li><a href="/hatshell">hatshell font</a></li>-->
-                <li><a href="/autum-leaf">autum leaf font</a></li>
+                <!--<li><a href="/autum-leaf">autum leaf font</a></li>-->
             </ul>
         </div>
     </div>

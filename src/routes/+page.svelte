@@ -33,6 +33,7 @@
                 <li><a href="/splatoon-3-guide">"ability farming in splatoon 3"</a></li>
                 <!--<li><a href="/hatshell">hatshell font</a></li>-->
                 <!--<li><a href="/autum-leaf">autum leaf font</a></li>-->
+                <li><a href="https://isitspookymonth.vercel.app">is it spooky month</a></li>
             </ul>
         </div>
     </div>

@@ -21,15 +21,11 @@
                 <p>Keep pushing!</p>
             </div>
         </div>
-        <div
-            class="flex-vertical text-center place-content-center all-the-text"
-        >
-            <!--<h6>this website was made to practice css grid</h6>-->
+        <div  class="flex-vertical text-center place-content-center all-the-text" >
             <h1>Hactuss</h1>
             <ul class="text-list">
                 <li><a href="https://github.com/hactuss">Github</a></li>
                 <li><a href="https://youtube.com/@hactuss">Youtube</a></li>
-                <!--<li><a href="/graphicdesign">graphic designs</a></li>-->
                 <li><a href="/portfolio">portfolio</a></li>
                 <li><a href="/links">links</a></li>
                 <li>
@@ -37,13 +33,56 @@
                         >"ability farming in splatoon 3"</a
                     >
                 </li>
-                <!--<li><a href="/autum-leaf">autum leaf font</a></li>-->
+                <li><a href="/autum-leaf">autum leaf font</a></li>
                 <li>
                     <a href="https://isitspookymonth.vercel.app"
                         >is it spooky month</a
                     >
                 </li>
             </ul>
+
+<!-- --
+            <table>
+              <caption>
+                Front-end web developer course 2021
+              </caption>
+              <thead>
+                <tr>
+                  <th scope="col">Person</th>
+                  <th scope="col">Most interest in</th>
+                  <th scope="col">Age</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Chris</th>
+                  <td>HTML tables</td>
+                  <td>22</td>
+                </tr>
+                <tr>
+                  <th scope="row">Dennis</th>
+                  <td>Web accessibility</td>
+                  <td>45</td>
+                </tr>
+                <tr>
+                  <th scope="row">Sarah</th>
+                  <td>JavaScript frameworks</td>
+                  <td>29</td>
+                </tr>
+                <tr>
+                  <th scope="row">Karen</th>
+                  <td>Web performance</td>
+                  <td>36</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th scope="row" colspan="2">Average age</th>
+                  <td>33</td>
+                </tr>
+              </tfoot>
+            </table>
+-->
         </div>
     </div>
 </main>
@@ -64,8 +103,6 @@
             transition-duration: 0.2s;
             transition-timing-function: ease-in-out;
             /*border: solid 1px red;*/
-        }
-        html {
         }
         body {
             width: 100%;
@@ -177,5 +214,9 @@
 color: hsl(200, 75%, 75%);
 }*/
     @media (m < 13) {
+    }
+
+    table, tr, td, th,  thead, tfoot{
+        border: 1px white solid;
     }
 </style>
